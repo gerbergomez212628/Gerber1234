@@ -1,0 +1,31 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 1200px;
+    grid-template-rows: 300px 500px 50px;
+    grid-template-areas: 
+    'ban'
+    'con'
+    'pie'
+
+    ;
+}
+.header{
+    grid-area: ban;
+    color: black;
+}
+
+.main{
+    grid-area: con;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+
+}
+.footer{
+    grid-area: pie;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}

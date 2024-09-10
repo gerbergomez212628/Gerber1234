@@ -1,0 +1,43 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 2000px;
+    grid-template-rows: 250px 700px 50px;
+    grid-template-areas: 
+    ' baner '
+    ' pq '
+    ' pie '
+    ;
+}
+.bn{
+    grid-area: baner;
+
+    color: black;
+    text-align: center;
+    font-size: 70px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.pq{
+    grid-area: pq;
+    background-color: aqua;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+
+}
+.pie{
+    grid-area: pie;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+
+#img{
+    width: 2000px;
+    height: 350px;
+    
+}
